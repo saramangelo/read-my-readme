@@ -12,7 +12,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
 
 inquirer
   .prompt([
@@ -24,49 +24,54 @@ inquirer
     {
         type: "input",
         message: questions[1],
-        name: "description",
+        name: "Description",
       },
       {
         type: "input",
         message: questions[2],
-        name: "installation",
+        name: "Installation",
       },
       {
         type: "input",
         message: questions[3],
-        name: "usage",
+        name: "Usage",
       },
       {
         type: "input",
         message: questions[4],
-        name: "contribution",
+        name: "Contributing",
       },
       {
         type: "input",
         message: questions[5],
-        name: "instructions",
+        name: "Tests",
       },
     {
       type: "checkbox",
-      message: "What languages do you know?",
-      name: "stack",
-      choices: ['HTML', 'CSS', 'JavaScript', 'MySQL']
+      message: "Which license do you want to include?",
+      name: "License",
+      choices: ['Apache License 2.0', 'GNU GPLv3', 'MIT', 'ISC']
     },
     {
-      type: "list",
-      message: "What is your preferred method of communication?",
-      name: "method",
-      choices: ['email', 'phone', 'telekinesis'],
+      type: "input",
+      message: "What is your Github username?",
+      name: "Questions",
     },
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "Questions",
+      },
   ])
-  .then((data) => {
-    console.log(data);
-    const filename = `${data.name.toLowerCase().split(' ').join('').json}`;
+//   .then((data) => {
+//     console.log(data);
+//     const filename = `${data.name.toLowerCase().split(' ').join('').json}`;
     
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-    err ? console.error(err) : console.log("yay!")
-  );
-});
+//     fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
+//     err ? console.error(err) : console.log("yay!")
+//   );
+// })
+}
 // const filename = `${data.name.toLowerCase().split(' ').join('').json}`
 // fs.writeToFile(filename, JSON.stringify(data, null, '\t'))
 
