@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
 // data = giant object (answers from input)
   .then((data) => {
     console.log(data);
-    const filename = `${data.title.toLowerCase().split(' ').join('')}.md`;
+    const filename = "README.md";
     
     fs.writeFile(filename, generateMarkdown(data), (err) =>
     err ? console.error(err) : console.log("yay!")

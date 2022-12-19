@@ -18,7 +18,6 @@ function generateMarkdown(data) {
   ## Description 
   ${data.description}
   
-  
   ## Table of Contents (Optional)
     
   - [Installation](#installation)
