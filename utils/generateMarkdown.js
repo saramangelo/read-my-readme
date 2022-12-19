@@ -40,28 +40,21 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
   
-  
-  ---
-  
-  🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-  
+    
   ## Badges
   
   [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-color=<COLOR>)](https://opensource.org/licenses/${data.license})
 
   
   ## Features
-  
-  If your project has a lot of features, list them here.
+  ${data.features}
   
   ## How to Contribute
-  
-  If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+  ${data.contribute}
   
   ## Tests
   ${data.tests}
   
-  Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 `;
 }
 
