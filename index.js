@@ -11,27 +11,26 @@ const questions = [
   },
   {
       type: "input",
-      message: "What is the description of the project?",
-      name: "description",
-    },
+      message: "Provide a short description explaining the what, why, and how of your project.",
+  },
     {
       type: "input",
-      message: "What are the installation instructions?",
+      message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
       name: "installation",
     },
     {
       type: "input",
-      message: "What is the usage information?",
+      message: "Provide instructions and examples for use. Include screenshots as needed",
       name: "usage",
     },
     {
       type: "input",
-      message: "What are the contribution guidelines?",
+      message: " List your collaborators, if any, with links to their GitHub profiles. If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. If you followed tutorials, include links to those here as well.",
       name: "credits",
     },
     {
       type: "input",
-      message: "What are the test instructions?",
+      message: "If you've written tests for your application, provide examples on how to run them here.",
       name: "tests",
     },
   {
@@ -67,8 +66,6 @@ function writeToFile(fileName, data) {
 })
 }
 writeToFile();
-// const filename = `${data.name.toLowerCase().split(' ').join('').json}`
-// fs.writeToFile(filename, JSON.stringify(data, null, '\t'))
 
 // TODO: Create a function to initialize app
 function init() {}
