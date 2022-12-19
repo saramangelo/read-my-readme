@@ -27,15 +27,18 @@ function generateMarkdown(data) {
   - [License](#license)
   
   ## Installation
+  ${data.installation}
   
   What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
   
   ## Usage
+  ${data.usage}
   
   Provide instructions and examples for use. Include screenshots as needed.
     
   
   ## Credits
+  ${data.credits}
   
   List your collaborators, if any, with links to their GitHub profiles.
   
@@ -44,6 +47,7 @@ function generateMarkdown(data) {
   If you followed tutorials, include links to those here as well.
   
   ## License
+  ${data.license}
   
   The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
   

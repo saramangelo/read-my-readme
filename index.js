@@ -27,7 +27,7 @@ const questions = [
     {
       type: "input",
       message: "What are the contribution guidelines?",
-      name: "contributing",
+      name: "credits",
     },
     {
       type: "input",
