@@ -42,8 +42,7 @@ function generateMarkdown(data) {
   
     
   ## Badges
-  
-  [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-color=<COLOR>)](https://opensource.org/licenses/${data.license})
+![Github license](https://img.shields.io/badge/License-${data.license}-color=GREEN)
 
   
   ## Features

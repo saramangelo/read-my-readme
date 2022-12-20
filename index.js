@@ -12,6 +12,7 @@ const questions = [
   {
       type: "input",
       message: "Provide a short description explaining the what, why, and how of your project.",
+      name: "description",
   },
     {
       type: "input",
@@ -29,10 +30,10 @@ const questions = [
       name: "credits",
     },
   {
-    type: "checkbox",
+    type: "list",
     message: "Which license do you want to include?",
+    choices: ['Apache_2.0', 'ISC', 'MIT'],
     name: "license",
-    choices: ['Apache License 2.0', 'GNU GPLv3', 'MIT', 'ISC']
   },
   {
     type: "input",
