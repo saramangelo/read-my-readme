@@ -14,7 +14,7 @@
 
 // includes data.title, data.description, data.installation, data.usage, data.license, data.features, data.contribute, data.tests, data.github, data.email from index.js questions
 function generateMarkdown(data) {
-  return `![Github license](https://img.shields.io/badge/License-${data.license}-color=GREEN)
+  return `![Github license](https://img.shields.io/static/v1?label=License&message=${data.license}&color=brightgreen)
 
 # ${data.title} 
 

@@ -81,7 +81,7 @@ function writeToFile(fileName, data) {
       const filename = "README.md";
 
       fs.writeFile(filename, generateMarkdown(data), (err) =>
-        err ? console.error(err) : console.log("yay!")
+        err ? console.error(err) : console.log("README.md successfully created!")
       );
     });
 }
