@@ -1,8 +1,10 @@
-# sldkfjslkdfjsdlkf 
+![Github license](https://img.shields.io/badge/License-ISC-color=GREEN)
+
+# readme 
 
 
 ## Description 
-lsdkfjslkdfjlsdkfjlskdjflsdkf
+create a readme in node
   
 ## Table of Contents (Optional)
     
@@ -10,43 +12,41 @@ lsdkfjslkdfjlsdkfjlskdjflsdkf
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 - [Features](#features)
 - [How to Contribute](#how-to-contribute)
- - [Tests](#tests)
+- [Tests](#tests)
 - [Questions](#questions)
   
 ## Installation
-asld;fasdfkjas
+sldkfj
   
   
 ## Usage
-dfa;sdkfljhewoihjewof
+as;ldkfjals;dkfjad;kj
    
   
 ## Credits
-as;dflienl;knfe
+asdlkjsdfklj
   
   
 ## License
 ISC
-  
-    
-## Badges
-![Github license](https://img.shields.io/badge/License-ISC-color=GREEN)
 
-  
+
 ## Features
-;asldkfj;alsdfj
-  
+asd;lksdflkdf
+
+
 ## How to Contribute
+sldkeidkd  
 (https://www.contributor-covenant.org/)
-;asldkfjasldfj  
   
+
 ## Tests
-a;sldfkjs;dlfkj
+flksdfjsdfasdf
   
+
 ## Questions
 Reach me at the links below with additional questions:
-- Github username: asd;lfkjsdf;lkdsf
-- Email: sad;lfkhsdf;kljhsdfkshjdf'lsfj
+- Github username: asdlfkj
+- Email: saldkfj

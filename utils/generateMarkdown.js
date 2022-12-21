@@ -14,7 +14,9 @@
 
 // includes data.title, data.description, data.installation, data.usage, data.license, data.features, data.contribute, data.tests, data.github, data.email from index.js questions
 function generateMarkdown(data) {
-  return `# ${data.title} 
+  return `![Github license](https://img.shields.io/badge/License-${data.license}-color=GREEN)
+
+# ${data.title} 
 
 
 ## Description 
@@ -26,7 +28,6 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 - [Features](#features)
 - [How to Contribute](#how-to-contribute)
 - [Tests](#tests)
@@ -46,22 +47,21 @@ ${data.credits}
   
 ## License
 ${data.license}
-  
-    
-## Badges
-![Github license](https://img.shields.io/badge/License-${data.license}-color=GREEN)
 
-  
+
 ## Features
 ${data.features}
-  
+
+
 ## How to Contribute
 ${data.contribute}  
 (https://www.contributor-covenant.org/)
   
+
 ## Tests
 ${data.tests}
   
+
 ## Questions
 Reach me at the links below with additional questions:
 - Github username: ${data.github}
