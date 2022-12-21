@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
-// TODO: Create an array of questions for user input
+// array of questions for user input
 // includes title, description, installation, usage, credits, license, features, contribute, tests, github, email.
 const questions = [
   {
@@ -70,7 +70,7 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
+// function to write README file
 function writeToFile(fileName, data) {
   inquirer
     .prompt(questions)
