@@ -1,10 +1,10 @@
-![Github license](https://img.shields.io/static/v1?label=License&message=Apache_2.0&color=brightgreen)
+![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=brightgreen)
 
-# sldkfj 
+# read-my-readme 
 
 
 ## Description 
-sdlkfjdlfkjsdf
+Readme generator application that uses node to prompt questions, in which the answers are then rendered onto a readme.md file in each respective section.
   
 ## Table of Contents (Optional)
     
@@ -18,35 +18,35 @@ sdlkfjdlfkjsdf
 - [Questions](#questions)
   
 ## Installation
-sldkfoend
+Clone the repository on Github.
   
   
 ## Usage
-sldkfj
+In the terminal, cd to the correct directory, type node index.js, answer the prompts.
    
   
 ## Credits
-sdlfk
+N/A
   
   
 ## License
-Apache_2.0
+MIT
 
 
 ## Features
-sldfkjsdflkj
+N/A
 
 
 ## How to Contribute
-sldkflskdf  
+N/A  
 (https://www.contributor-covenant.org/)
   
 
 ## Tests
-sldkfjsdf
+N/A
   
 
 ## Questions
 Reach me at the links below with additional questions:
-- Github username: sdldk
-- Email: sldkfd
+- Github username: saramangelo
+- Email: saramangelo@gmail.com

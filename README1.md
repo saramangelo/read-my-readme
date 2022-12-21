@@ -8,7 +8,7 @@ This README generator is a command-line app application that accepts user input.
 
 ## Screenshot
 
-![.png]()
+![readme-ss.png](./assets/readme-ss.png`)
 
 ## Link to github repository:
 
