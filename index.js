@@ -5,28 +5,33 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // array of questions for user input
 // includes title, description, installation, usage, credits, license, features, contribute, tests, github, email.
 const questions = [
+  // title - ask for project title
   {
     type: "input",
     message: "What is your project title?",
     name: "title",
   },
+  // description - ask for description of project
   {
     type: "input",
     message:
       "Provide a short description explaining the what, why, and how of your project.",
     name: "description",
   },
+  // installation - ask for steps to install project
   {
     type: "input",
     message:
       "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
     name: "installation",
   },
+  // usage - ask for instructions and examples for app use
   {
     type: "input",
     message: "Provide instructions and examples for use.",
     name: "usage",
   },
+  // credits - list collaborators if any
   {
     type: "input",
     message:
@@ -40,17 +45,20 @@ const questions = [
     choices: ["Apache_2.0", "ISC", "MIT"],
     name: "license",
   },
+  // features - list features here
   {
     type: "input",
     message: "If your project has a lot of features, list them here.",
     name: "features",
   },
+  // contribute - share how to contribute to this app
   {
     type: "input",
     message:
       " If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so here.",
     name: "contribute",
   },
+  // tests - provide examples if tests written for this app, how to run them
   {
     type: "input",
     message:
