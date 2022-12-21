@@ -4,7 +4,7 @@
 
 
 ## Description 
-Readme generator application that uses node to prompt questions, in which the answers are then rendered onto a readme.md file in each respective section.
+This README generator is a command-line app application that accepts user input. While utilizing node, users are prompted for information about their application repository, which is then rendered in the form of a professional README.md with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License (including badge), Contributing, Tests, and Questions. When the user answers each prompt, the input is generated onto the README.md file in its respective location on the file.
   
 ## Table of Contents (Optional)
     
@@ -18,11 +18,11 @@ Readme generator application that uses node to prompt questions, in which the an
 - [Questions](#questions)
   
 ## Installation
-Clone the repository on Github.
+Go to github, clone the repository, open in VS Code, open terminal, type node index.js, answer prompts.
   
   
 ## Usage
-In the terminal, cd to the correct directory, type node index.js, answer the prompts.
+After cloning the repository, open a code editor (VS code), open terminal, type node index.js, answer each prompt.
    
   
 ## Credits
