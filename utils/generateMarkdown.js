@@ -15,53 +15,55 @@ function generateMarkdown(data) {
   return `# ${data.title} 
 
 
-  ## Description 
-  ${data.description}
+## Description 
+${data.description}
   
-  ## Table of Contents (Optional)
+## Table of Contents (Optional)
     
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Badges](#badges)
-  - [Features](#features)
-  - [How to Contribute](#how-to-contribute)
-  - [Tests](#tests)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [How to Contribute](#how-to-contribute)
+ - [Tests](#tests)
+- [Questions](#questions)
   
-  ## Installation
-  ${data.installation}
+## Installation
+${data.installation}
   
   
-  ## Usage
-  ${data.usage}
+## Usage
+${data.usage}
    
   
-  ## Credits
-  ${data.credits}
+## Credits
+${data.credits}
   
   
-  ## License
-  ${data.license}
+## License
+${data.license}
   
     
-  ## Badges
+## Badges
 ![Github license](https://img.shields.io/badge/License-${data.license}-color=GREEN)
 
   
-  ## Features
-  ${data.features}
+## Features
+${data.features}
   
-  ## How to Contribute
-  ${data.contribute} 
+## How to Contribute
+${data.contribute}  
 (https://www.contributor-covenant.org/)
   
-  ## Tests
-  ${data.tests}
+## Tests
+${data.tests}
   
-  ## Contact information:
-  - ${data.github}
-  - ${data.email}
+## Questions
+Reach me at the links below with additional questions:
+- Github username: ${data.github}
+- Email: ${data.email}
 `;
 }
 
