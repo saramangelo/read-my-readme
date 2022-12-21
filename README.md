@@ -10,17 +10,21 @@
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
   
   ## Installation
-  s
+  f
   
   
   ## Usage
-  a
+  d
    
   
   ## Credits
-  d
+  s
   
   
   ## License
@@ -32,11 +36,15 @@
 
   
   ## Features
-  fd
-  
-  ## How to Contribute
   s
   
-  ## Tests
-  a
+  ## How to Contribute
+  d 
+(https://www.contributor-covenant.org/)
   
+  ## Tests
+  f
+  
+  ## Contact information:
+  - d
+  - s

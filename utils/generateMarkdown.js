@@ -24,6 +24,10 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
   
   ## Installation
   ${data.installation}
@@ -49,11 +53,15 @@ function generateMarkdown(data) {
   ${data.features}
   
   ## How to Contribute
-  ${data.contribute}
+  ${data.contribute} 
+(https://www.contributor-covenant.org/)
   
   ## Tests
   ${data.tests}
   
+  ## Contact information:
+  - ${data.github}
+  - ${data.email}
 `;
 }
 
