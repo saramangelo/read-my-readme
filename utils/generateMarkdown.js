@@ -52,7 +52,7 @@ ${data.tests}
 
 ## Questions
 Reach me at the links below with additional questions:
-- https://github.com/${data.github}
+- Github: https://github.com/${data.github}
 - Email: ${data.email}
 `;
 }
