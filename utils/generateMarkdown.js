@@ -9,6 +9,9 @@ function generateMarkdown(data) {
 
 ## Description 
 ${data.description}
+
+## Screenshot
+![]()
   
 ## Table of Contents (Optional)
     
