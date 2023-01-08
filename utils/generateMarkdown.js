@@ -1,4 +1,3 @@
-
 //function to generate markdown for README
 
 // includes data.title, data.description, data.installation, data.usage, data.license, data.features, data.contribute, data.tests, data.github, data.email from index.js questions
@@ -53,7 +52,7 @@ ${data.tests}
 
 ## Questions
 Reach me at the links below with additional questions:
-- Github username: ${data.github}
+- https://github.com/${data.github}
 - Email: ${data.email}
 `;
 }
