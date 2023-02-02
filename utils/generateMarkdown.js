@@ -49,7 +49,7 @@ ${data.contribute}
 
 ## Tests
 ${data.tests}
-  
+
 
 ## Questions
 Reach me at the links below with additional questions:

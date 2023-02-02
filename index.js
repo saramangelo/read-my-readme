@@ -35,7 +35,7 @@ const questions = [
   {
     type: "input",
     message:
-      " List your collaborators, if any, with links to their GitHub profiles. If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. If you followed tutorials, include links to those here as well.",
+      "List your collaborators, if any, with links to their GitHub profiles. If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. If you followed tutorials, include links to those here as well.",
     name: "credits",
   },
   // license should be in list form, no spaces
@@ -55,7 +55,7 @@ const questions = [
   {
     type: "input",
     message:
-      " If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so here.",
+      "If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so here.",
     name: "contribute",
   },
   // tests - provide examples if tests written for this app, how to run them
@@ -93,4 +93,7 @@ function writeToFile(fileName, data) {
       );
     });
 }
+
+
+
 writeToFile();
